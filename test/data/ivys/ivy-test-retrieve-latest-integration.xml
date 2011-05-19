@@ -1,0 +1,7 @@
+<ivy-module version="1.0">
+    <info organisation="testorg" module="testmodule" />
+    <dependencies>
+      <dependency org="acme" name="widgets" rev="latest.integration"/>
+      <dependency org="constructus" name="toolkit" rev="1.1"/>
+    </dependencies>
+</ivy-module>

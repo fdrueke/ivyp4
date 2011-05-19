@@ -1,0 +1,20 @@
+<ivy-module version="1.0">
+    <info organisation="com.orga.ivy.plugins" module="ivyp4resolver" />
+    
+    <configurations>
+    	<conf name="build" visibility="public"/>
+    	<conf name="unittest" extends="build" visibility="private"/>
+    	<conf name="findbugs" visibility="private"/>
+    </configurations>
+    
+    <dependencies>
+        <dependency org="com.perforce" name="p4java" rev="2010.1.269249" />
+        <dependency org="org.apache.ivy" name="ivy" rev="2.2.0"/>
+        
+        <dependency org="commons-io" name="commons-io" rev="2.0"/>
+        
+        <dependency org="junit" name="junit" rev="4.8.2" conf="unittest->default"/>
+        
+        <dependency org="edu.umd.cs" name="findbugs" rev="1.3.9" force="true" conf="findbugs->ant" />
+    </dependencies>
+</ivy-module>

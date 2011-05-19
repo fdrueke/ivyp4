@@ -1,0 +1,9 @@
+<ivy-module version="1.0">
+  <info organisation="testorg" module="testmodule-multi" />
+
+  <publications>
+    <artifact name="testartifact1" ext="jar" />
+    <artifact name="testartifact2" ext="jar" />
+  </publications>
+
+</ivy-module>

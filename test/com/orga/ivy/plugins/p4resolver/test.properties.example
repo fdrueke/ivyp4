@@ -1,0 +1,21 @@
+#### ADAPT PROPERTIES TO YOUR NEEDS
+
+##The name of the Perforce server 
+p4.host=yourperforceservername
+
+##The portnumber of the Perforce server
+p4.port=1666
+
+##The Perforce user name to use for unit tests
+p4.username=yourp4user
+
+##The Perforce password (not needed in unittests, since we rely on a valid p4ticket
+#p4.password=NotNeeded
+
+##The repository-path in perforce that can be used for unit-tests
+p4.repopath=//TEST/DEPOT
+
+##The value to use for ant's logging in the tests, possible values are: MSG_DEBUG (default), MSG_VERBOSE, MSG_INFO, MSG_WARN, MSG_ERR
+ant.message.output.level=MSG_DEBUG
+
+

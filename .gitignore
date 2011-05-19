@@ -1,0 +1,6 @@
+build/*
+ivysettings.xml
+build.properties
+lib-findbugs/*
+ivyp4resolver-findbugs-results.*
+test/com/orga/ivy/plugins/p4resolver/test.properties

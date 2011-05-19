@@ -1,0 +1,6 @@
+<ivy-module version="1.0">
+    <info organisation="testorg" module="testmodule" />
+    <dependencies>
+      <dependency org="acme" name="widgets" rev="4.4"/>
+    </dependencies>
+</ivy-module>

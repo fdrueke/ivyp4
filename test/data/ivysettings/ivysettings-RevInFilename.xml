@@ -1,0 +1,20 @@
+<ivysettings>
+  
+    <typedef name="p4" classname="com.orga.ivy.plugins.p4resolver.P4Resolver"/>
+  
+  
+  <resolvers>
+
+       <p4 name="ivyp4" 
+      user="${p4.username}"
+      passwd="${p4.password}"
+      host="${p4.host}"
+      port="${p4.port}"><!--@-->
+      <ivy pattern="${p4.repopath}/[organisation]/[module]/[revision]/ivy-[revision].xml"/>
+      <artifact pattern="${p4.repopath}/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]"/>
+    </p4>
+  </resolvers>
+  
+    <settings defaultResolver="ivyp4"/>
+  
+</ivysettings>

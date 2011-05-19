@@ -1,0 +1,6 @@
+<ivy-module version="1.0">
+    <info organisation="espear" module="account" />
+    <dependencies>
+      <dependency org="testorg" name="testmodule" rev="latest.integration"/>
+    </dependencies>
+</ivy-module>

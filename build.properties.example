@@ -1,0 +1,10 @@
+version=enter_version_here
+bin.includes = build/dist/
+src.includes = build.properties,\
+               build.xml,\
+               ivy.xml,\
+               src/,\
+               test/,\
+               Ivy-LICENSE.txt,\
+               .project,\
+               .classpath
